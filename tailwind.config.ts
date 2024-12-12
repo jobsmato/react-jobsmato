@@ -9,8 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "label-colorslc-l-secondary": "var(--label-colorslc-l-secondary)",
+        "system-materialssm-l-thick": "var(--system-materialssm-l-thick)",
+      },
+      fontFamily: {
+        "default-size-body": "var(--default-size-body-font-family)",
       },
     },
   },
