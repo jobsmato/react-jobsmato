@@ -3,7 +3,6 @@ import React from "react";
 import { PropertyDefault } from "./PropertyDefault";
 
 export const SearchBar = ({
-  property1,
   propertyDefaultSearchBarPlaceholderLabelClassName,
   propertyDefaultSearchBarMagnifyingglassMagnifyingglassClassName,
   propertyDefaultSearchBarContentClassName,
@@ -25,6 +24,3 @@ export const SearchBar = ({
   );
 };
 
-SearchBar.propTypes = {
-  property1: PropTypes.oneOf(["search-bar"]),
-};

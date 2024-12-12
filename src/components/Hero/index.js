@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 // const frame11 = './frame.png'
 
